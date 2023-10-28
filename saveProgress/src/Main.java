@@ -17,6 +17,7 @@ public class Main {
         saveGame("C://Games/savegames/save2.txt", save2);
         saveGame("C://Games/savegames/save3.txt", save3);
         zipFiles("C://Games/savegames/zip.zip", gameProgresses);
+        deleteFile(gameProgresses);
         openZip("C://Games/savegames/zip.zip","C://Games/savegames");
         openProgress("C://Games/savegames/save3.txt");
 
@@ -46,14 +47,17 @@ public class Main {
                 }catch (Exception ex) {
                     System.out.println(ex.getMessage());
                 }
-                File delate = new File(file);
-                delate.delete();
             }
 
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
 
+    }
+
+    public static void deleteFile(List<String> namesFiles){
+        namesFiles.stream()
+                .forEach(file -> new File(file).delete());
     }
 
     public static void openZip(String zipName, String dirName) {
