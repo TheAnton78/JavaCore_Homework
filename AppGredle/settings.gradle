@@ -1,0 +1,6 @@
+rootProject.name = 'AppGredle'
+include 'db'
+include 'api'
+include 'service'
+
+
