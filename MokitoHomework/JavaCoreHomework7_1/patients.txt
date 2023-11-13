@@ -1,0 +1,6 @@
+{"id":"d5b13e5e-f526-4659-8fa1-2b0378e15779","name":"Иван","surname":"Петров","birthday":"1980-11-26","healthInfo":{"normalTemperature":36.65,"bloodPressure":{"high":120,"low":80}}}
+{"id":"9819f246-c77e-4fec-b414-0f07fe4b16b6","name":"Семен","surname":"Михайлов","birthday":"1982-01-16","healthInfo":{"normalTemperature":36.6,"bloodPressure":{"high":125,"low":78}}}
+{"id":"73d2915f-606d-49dd-b6df-672e3f1469a7","name":"Степан","surname":"Петров","birthday":"1980-11-26","healthInfo":{"normalTemperature":36.65,"bloodPressure":{"high":120,"low":80}}}
+{"id":"94dedccf-8da8-48ac-9e34-6cd8e59f0661","name":"Геннадий","surname":"Петров","birthday":"1980-11-26","healthInfo":{"normalTemperature":36.65,"bloodPressure":{"high":120,"low":80}}}
+{"id":"1c63aa5d-60a5-43f7-ba37-a4971ed06478","name":"НЧмуем","surname":"Петров","birthday":"1980-11-26","healthInfo":{"normalTemperature":36.65,"bloodPressure":{"high":120,"low":80}}}
+{"id":"89a51968-2170-4c99-a551-74e5d3c3fcdc","name":"Алексей","surname":"Михайлов","birthday":"1982-01-16","healthInfo":{"normalTemperature":36.6,"bloodPressure":{"high":125,"low":78}}}
