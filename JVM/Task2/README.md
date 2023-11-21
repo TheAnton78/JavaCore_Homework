@@ -1,10 +1,10 @@
 # Домашнее задание "Исследование JVM через VisualVM"
 
-##Разбор Metaspace
+## Разбор Metaspace
 ![Metaspace](Metaspace.png)
 
-##Разбор Classes
+## Разбор Classes
 ![Classes](Classes.png)
 
-##Paзбор Heap
+## Paзбор Heap
 ![Heap](Heap.png)

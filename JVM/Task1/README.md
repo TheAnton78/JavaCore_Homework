@@ -1,4 +1,5 @@
-#Домашнее задание "Понимание JVM"
+# Домашнее задание "Понимание JVM"
+```java
 public class JvmComprehension { //Подгружается класс JvmComprehension в Metaspace, при помощи  Bootstrat ClassLoader, если он не находит то делегирует Зlatform, а он делегирует Аpllicatoin 
 
     public static void main(String[] args) { // создается фрейм main в стеке(Stack Memory)
@@ -14,3 +15,4 @@ public class JvmComprehension { //Подгружается класс JvmCompreh
         System.out.println(o.toString() + i + ii);  // создается фрейм sout, и в него копируется i, и передаются ссылки на o и ii
     }
 }
+```
